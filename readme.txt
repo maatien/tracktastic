@@ -4,7 +4,7 @@ Donate link: https://buymeacoffee.com/killiansantos
 Tags: matomo, analytics, statistics, woocommerce, ecommerce
 Requires at least: 6.0
 Tested up to: 6.7.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -75,6 +75,10 @@ No, Tracktastic is specifically designed to collect and track e-commerce events 
 Yes, Tracktastic is compatible with both Matomo On-Premise and Matomo Cloud. It seamlessly integrates with your Matomo setup, regardless of whether it's hosted on-premise or in the cloud.
 
 == Changelog ==
+
+= 1.0.1 =
+* Fix PHP error on WooCommerce product page
+* Use Product ID if no SKU is available
 
 = 1.0.0 =
 * Launch of the 1st public version of Tracktastic

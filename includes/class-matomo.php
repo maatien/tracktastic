@@ -24,6 +24,7 @@ function tracktastic_add_matomo_ecommerce_tracking_to_product_pages()
         if(empty($sku)) {
             $sku= $post->ID;
         }
+        
         $name = $_product->get_name();
         $categories = wp_get_post_terms($_product->get_id(), 'product_cat');
         $category_names = array_map(function ($term) {

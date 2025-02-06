@@ -1,5 +1,5 @@
 === Tracktastic: Free Matomo Integration for WooCommerce ===
-Contributors: killiansantos
+Contributors: killiansantos, mamo.solutions
 Donate link: https://buymeacoffee.com/killiansantos
 Tags: matomo, analytics, statistics, woocommerce, ecommerce
 Requires at least: 6.0
